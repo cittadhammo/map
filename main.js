@@ -42,7 +42,7 @@ import Suttapitaka from './suttapitaka.svg'
 //   }),
 // });
 
-var extent = [0, 0, 512, 512];
+var extent = [0, 0, 3456, 5323];
 var projection = new Projection({
   code: 'static-image',
   units: 'pixels',
