@@ -9,6 +9,9 @@ import {getHeight} from 'ol/extent';
 import {getWidth} from 'ol/extent';
 // import Extent from 'ol/extent';
 
+import Suttapitaka from './suttapitaka.svg'
+
+
 // Map views always need a projection.  Here we just want to map image
 // coordinates directly to map coordinates, so we create a projection that uses
 // the image extent in pixels.
@@ -50,7 +53,7 @@ var map = new Map({
   layers: [
     new ImageLayer({
       source: new Static({
-        url: 'suttapitaka.svg',
+        url: Suttapitaka,
         projection: projection,
         imageExtent: extent,
         imageLoadFunction: function (image, src) {
