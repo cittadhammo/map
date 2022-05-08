@@ -19,6 +19,8 @@ Then deploy the contents of the `dist` directory to your server.  You can also r
 
 # push main the first time
 
+https://www.youtube.com/watch?v=yo2bMGnIKE8
+
     git init
     git add .
     git commit -m "first commit"
