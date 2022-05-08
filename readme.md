@@ -26,11 +26,11 @@ git branch -M main
 git remote add origin https://github.com/DhammaCharts/map.git
 git push -u origin main
 
-# push main after the first time 
+# push main after the first time
 
 git add .
 git commit -m "first commit"
-git push origin main
+git push
 
 # deploy the dist
 
