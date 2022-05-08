@@ -16,3 +16,24 @@ To generate a build ready for production:
     npm run build
 
 Then deploy the contents of the `dist` directory to your server.  You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+
+# push main the first time
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DhammaCharts/map.git
+git push -u origin main
+
+# push main after the first time 
+
+git add .
+git commit -m "first commit"
+git push origin main
+
+# deploy the dist
+
+git add dist -f
+git commit -m "adding dist"
+git subtree push --prefix dist origin gh-page
