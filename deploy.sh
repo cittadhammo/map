@@ -7,4 +7,3 @@ git subtree push --prefix dist origin gh-page
 
 
 git push origin `git subtree push --prefix dist origin gh-page`:production --force
-
